@@ -1,0 +1,188 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html{
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Cinzel', serif;
+font-family: 'Merienda', cursive;
+}
+.background{
+	background-image:url('LOGO.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.container{
+	display: block;
+	height: 100px;
+	flex-wrap: wrap;
+	align-content: center;
+	
+}
+.container a { 
+	flex: 1 1 50%;
+	text-decoration: none;
+	font-size: 40px;
+	padding: 5px;
+	margin: 30px;
+	
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+}
+.aa{
+	display: flex;
+	 align-content: column;
+}
+*{
+	box-sizing: flex;
+}
+
+.row{
+	display: flex;
+}
+.column{
+	flex: 33.3333%;
+	paddibg:1px;
+	align-content: center;
+
+}
+h2{
+	text-align:center;
+	
+}
+img{
+	vertical-align: bottom;
+}
+figcaption{
+	padding:1px;
+	margin:5px;
+}
+.container1{
+	width:1000px;
+	/* it sets auto magin on all sides, set it the same*/
+	margin:auto;
+	position: absolute;
+	box-shadow: 0 0 20px 0 #999;
+	left: 10%;
+}
+
+.para{
+	 border: 1px #ccc solid;
+	 padding: 10px;
+	 margin: 5px;
+	 font-weight:600;
+	 box-shadow: 0 0 20px 0 #999;
+} 
+
+.center{
+	text-align: ceneter
+	font-size: 50px;
+}
+	
+.contact-box{
+	
+	width: 500px;
+	box-shadow: 0 0 20px 0 #999;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+form{
+	margin: 35px;
+}
+
+.input-field{
+	width: 400px;
+	height:40px;
+	margin-top: 20px 10px;
+	padding-right: 10px;
+	border: 3px solid #777;
+	border-radius: 14px;
+	outline: none;
+}
+.textarea-field{
+	height: 150px;
+	padding top: 10px;
+}
+.btn{
+	border-radius: 20px;
+	margin-top: 10px;
+	sensor: pointer;
+}
+.head{
+	text-align :center;
+}
+h3{
+	text-align :center;
+	top: 100%;
+	position: 
+	
+	
+}
+
+
+.social ul {
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	padding: 0;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	display: flex;
+}
+.social ul li {
+	list-style: none;
+	margin: 0 15px;
+}
+.social ul li .fa {
+	font-size: 30px;
+	line-height: 40px;
+	transition:.6s;
+	color: #000;
+}
+.social ul li .fa:hover{
+	background-color: #fff;
+	
+}
+.social ul li a {
+	position: relative;
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #fff;
+	text-align: center;
+	transition: .6s;
+	box-shadow: 0 5px 4px rgba(0,0,0,.5)
+}
+/* makes icon hover  up and down*/
+.social ul li a:hover {
+	transform: translate(0, -10px);
+}
+/* select every li child and Specify a background color for every a*/
+.social ul li:nth-child(1) a:hover {
+	background-color: #1877F2;
+}
+.social ul li:nth-child(2) a:hover {
+	background-color: #E4405F;
+}
+.social ul li:nth-child(3) a:hover {
+	background-color: #1DA1F2;
+}
+.social ul li:nth-child(4) a:hover {
+	background-color: #BD081C;
+}
+.social ul li:nth-child(5) a:hover {
+	background-color: #0A66C2;
+}
+
