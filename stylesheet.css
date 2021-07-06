@@ -1,20 +1,95 @@
-*{
-	margin:0;
-	padding: 0;
-}
-html{
-	box-sizing:border-box;
-}
 body{
 	font-family: 'Cinzel', serif;
-font-family: 'Merienda', cursive;
+	font-family: 'Merienda', cursive;
+	background-color: #fdfbf7;
+	color: #9a546f;
+	
 }
-.background{
-	background-image:url('LOGO.jpg');
-	background-attachment:fixed;
-	background-size:cover;
-	background-repeat: no-repeat;
+.box1{
+	border: 1px solid black;
+	background-color: black;
+	height: 35px;
+	
 }
+ul{
+	float: left;
+	color: white;
+}
+ul li{
+	margin-top: -10px;
+	float: left;
+	position: relative;
+	left: 500%;
+	width: 100px;
+	font-size: 14px;
+	
+	list-style-type: none;
+	padding: 3px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+h4{
+	margin-top: 1px;
+	color:white;
+	margin: 7px 12px;
+	left: -10%;
+	position: relative;
+	font-size: 14px;
+}
+.subbox{
+	border: 1px solid transparent;
+	background-color: whitesmoke;
+	height: 50px;
+}
+ol{
+	float: left;
+}
+ol li{
+	float: left;
+	width: 250px;
+	left: 25%;
+	list-style-type: none;
+	font-size: 30px;
+}
+ol li a{
+	text-decoration: none;
+	color: #ab7186;
+}
+ol li a:hover{
+	background: #fdf6f0;
+}
+.fa-search{
+	position:absolute;
+	left: 90%;
+	top: 11%;
+	margin-top: 5px;
+}
+.fa-shopping-bag{
+	position:absolute;
+	left: 92%;
+	top: 11%;
+	margin-top: 5px;
+	
+}
+.logo{
+	position: relative;
+	left: -42%;
+	top: -50px;
+	font-family: barlow condesned, sans-serif;
+	
+}
+font{
+	color: black;
+}
+.cover1 img{
+background-size: cover;
+height: 530px;
+width: 1328px;
+
+}
+
 .container{
 	display: block;
 	height: 100px;
@@ -36,11 +111,6 @@ font-family: 'Merienda', cursive;
 	
 }
 
-}
-.aa{
-	display: flex;
-	 align-content: column;
-}
 *{
 	box-sizing: flex;
 }
@@ -50,7 +120,7 @@ font-family: 'Merienda', cursive;
 }
 .column{
 	flex: 33.3333%;
-	paddibg:1px;
+	padding:1px;
 	align-content: center;
 
 }
@@ -65,36 +135,61 @@ figcaption{
 	padding:1px;
 	margin:5px;
 }
+/*About page*/
+.cover2{
+	opacity: 0.8;
+}
+.head2{
+	font-family: barlow condesned, sans-serif;
+	text-align: center;
+	top: -370px;
+	right: -210px;
+	position: relative;
+}
 .container1{
-	width:1000px;
+	width:650px;
 	/* it sets auto magin on all sides, set it the same*/
 	margin:auto;
 	position: absolute;
-	box-shadow: 0 0 20px 0 #999;
-	left: 10%;
+	left: 45%;
+	top:35%;
+	background-color: white;
+	font-family: barlow condesned, sans-serif;
+	
 }
-
 .para{
-	 border: 1px #ccc solid;
+	 
 	 padding: 10px;
 	 margin: 5px;
 	 font-weight:600;
-	 box-shadow: 0 0 20px 0 #999;
+	 
 } 
+.container2{
+	width:650px;
+	/* it sets auto magin on all sides, set it the same*/
+	margin:auto;
+	position: absolute;
+	left: 45%;
+	top:64%;
+	background-color: white;
+	font-family: barlow condesned, sans-serif;
+}
+
 
 .center{
 	text-align: ceneter
 	font-size: 50px;
 }
-	
+/* Contactpage*/
 .contact-box{
 	
 	width: 500px;
 	box-shadow: 0 0 20px 0 #999;
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%,-50%);
+	background-color: whitesmoke;
 }
 
 form{
@@ -112,7 +207,7 @@ form{
 }
 .textarea-field{
 	height: 150px;
-	padding top: 10px;
+	padding-top: 10px;
 }
 .btn{
 	border-radius: 20px;
@@ -121,47 +216,36 @@ form{
 }
 .head{
 	text-align :center;
-}
-h3{
-	text-align :center;
-	top: 100%;
-	position: 
-	
-	
+	font-family: barlow condesned, sans-serif;
+	font-weight: normal;
 }
 
-
-.social ul {
-	position: absolute;
-	top: 95%;
-	left: 50%;
+.social ul{
 	padding: 0;
 	margin: 0;
-	transform: translate(-50%, -50%);
-	display: flex;
+	left: -1000px;
 }
+
 .social ul li {
 	list-style: none;
 	margin: 0 15px;
+
 }
 .social ul li .fa {
 	font-size: 30px;
-	line-height: 40px;
-	transition:.6s;
+	line-height: 60px;
+	transform: .6s;
 	color: #000;
 }
-.social ul li .fa:hover{
-	background-color: #fff;
-	
-}
+
 .social ul li a {
-	position: relative;
+	position: absolute;
 	display: block;
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
-	background-color: #fff;
-	text-align: center;
+	background-color: whitesmoke;
+	text-align:center;
 	transition: .6s;
 	box-shadow: 0 5px 4px rgba(0,0,0,.5)
 }
@@ -182,7 +266,6 @@ h3{
 .social ul li:nth-child(4) a:hover {
 	background-color: #BD081C;
 }
-.social ul li:nth-child(5) a:hover {
-	background-color: #0A66C2;
-}
+
+
 
