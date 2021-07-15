@@ -1,10 +1,10 @@
-body{
-	font-family: 'Cinzel', serif;
-	font-family: 'Merienda', cursive;
+
+body, input, textarea{
 	background-color: #fdfbf7;
 	color: #9a546f;
 	
 }
+/***** first nav bar****/
 .box1{
 	border: 1px solid black;
 	background-color: black;
@@ -22,7 +22,6 @@ ul li{
 	left: 500%;
 	width: 100px;
 	font-size: 14px;
-	
 	list-style-type: none;
 	padding: 3px;
 }
@@ -38,10 +37,14 @@ h4{
 	position: relative;
 	font-size: 14px;
 }
+/***** second nav bar****/
 .subbox{
 	border: 1px solid transparent;
 	background-color: whitesmoke;
-	height: 50px;
+	height: 47px;
+}
+ .subbox li a:hover {
+    color: rgb(37, 37, 22);
 }
 ol{
 	float: left;
@@ -58,91 +61,96 @@ ol li a{
 	color: #ab7186;
 }
 ol li a:hover{
-	background: #fdf6f0;
+	background: #fdfbf8;
 }
 .fa-search{
 	position:absolute;
 	left: 90%;
 	top: 11%;
 	margin-top: 5px;
+    cursor: pointer;
 }
 .fa-shopping-bag{
 	position:absolute;
 	left: 92%;
 	top: 11%;
 	margin-top: 5px;
+    cursor: pointer;
 	
 }
 .logo{
 	position: relative;
-	left: -42%;
+	left: 1%;
 	top: -50px;
-	font-family: barlow condesned, sans-serif;
-	
+		
 }
 font{
 	color: black;
 }
-.cover1 img{
+/*home page*/
+.cover1{
 background-size: cover;
+position: relative;
 height: 530px;
-width: 1328px;
-
+width: 100%;
+bottom: 0;
+ba
+}
+.heading{
+position: relative;
+font-size: 28px;
+text-transform: capitalize;
+top: -350px;
+color: #704241;
 }
 
-.container{
-	display: block;
-	height: 100px;
-	flex-wrap: wrap;
-	align-content: center;
-	
+/* product page*/
+
+.grid h1{
+    font-size: 39px;
+    text-align: center;
+    padding-top: 70px;
+    /*padding-block-end: 50px;*/
 }
-.container a { 
-	flex: 1 1 50%;
-	text-decoration: none;
-	font-size: 40px;
-	padding: 5px;
-	margin: 30px;
-	
+.grid-box{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 200px;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
 }
-.wrapper{
-	display: flex;
-	flex-direction: column;
-	
+.grid-box > div {
+    text-align: center;
+    font-size: 20px;
 }
 
-*{
-	box-sizing: flex;
+.grid-box img{
+    width: 100%;
+    height: 300px;
+}
+.btn1{
+    width: 100%;
+    background-color:#7f2549;
+    font-size: 17px;
+}
+.btn1 :hover{
+    background: #fdfbf7;
 }
 
-.row{
-	display: flex;
-}
-.column{
-	flex: 33.3333%;
-	padding:1px;
-	align-content: center;
 
-}
-h2{
-	text-align:center;
-	
-}
-img{
-	vertical-align: bottom;
-}
-figcaption{
-	padding:1px;
-	margin:5px;
-}
-/*About page*/
+/*******About page*******/
 .cover2{
 	opacity: 0.8;
+    margin-top: 80px ;
+    
+    
 }
 .head2{
 	font-family: barlow condesned, sans-serif;
 	text-align: center;
-	top: -370px;
+	top: -395px;
 	right: -210px;
 	position: relative;
 }
@@ -175,97 +183,201 @@ figcaption{
 	font-family: barlow condesned, sans-serif;
 }
 
+/***** Contactpage******/
 
-.center{
-	text-align: ceneter
-	font-size: 50px;
+.Container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 32px;
+    background-color: white;
+    overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
 }
-/* Contactpage*/
-.contact-box{
-	
-	width: 500px;
-	box-shadow: 0 0 20px 0 #999;
-	top: 60%;
-	left: 50%;
-	position: absolute;
-	transform: translate(-50%,-50%);
-	background-color: whitesmoke;
-}
+ .form{
+     width: 100%;
+     max-width: 820px;
+     border-radius: 5px;
+     background-color: #fdfbf8;
+     box-shadow: 0 0 20px whitesmoke;
+     display: grid;
+     z-index: 1000;
+     overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+ }
+ /********contact form*****/
+ .contact-form{
+     background-color: #fdf6f0;
+     position: relative;
+ }
 
 form{
-	margin: 35px;
+    padding: 33px 32px;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
+.title{
+    
+    font-weight: 500px;
+    font-size: 27px;
+    line-height: 1;
+    top: 25px;
+}
+.input-container{
+    position: relative;
+    margin: 25px 0;
+    
 }
 
-.input-field{
-	width: 400px;
-	height:40px;
-	margin-top: 20px 10px;
-	padding-right: 10px;
-	border: 3px solid #777;
-	border-radius: 14px;
-	outline: none;
+.input{
+    width: 80%;
+    outline: none;
+    border: 2px solid ;
+    background: none;
+    padding: 10px 25px;
+    color: black;
+   letter-spacing: 0.5px;
+   font-weight: 500;
+   border-radius: 25px;
+   transition: 0.3s;
+
 }
-.textarea-field{
-	height: 150px;
-	padding-top: 10px;
+textarea.input{
+    padding: 25px  25px;
+    min-height: 100px;
+    border-radius: 22px;
+    resize: none;
+    /*overflow-y: auto;*/
+}
+.input-container label{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+   transform: translateY(-50%);
+   padding: 0 6px;
+    color: #d09d85;
+    font-size: 20px;
+    font-weight: 400 ;
+    z-index: 1000;
+    transition: 0.5s;
+}
+.input-container.textarea label{
+    top: 15px;
+    /*transform: translateY(0);*/
 }
 .btn{
-	border-radius: 20px;
+    padding: 7px 9px;
+    border-radius: 20px;
 	margin-top: 10px;
-	sensor: pointer;
+    background: linear-gradient(135deg, transparent 20%,#d09d85);
+    cursor: pointer;
 }
-.head{
-	text-align :center;
-	font-family: barlow condesned, sans-serif;
-	font-weight: normal;
+label{ 
+    display: none;
+   }
+.input-container section{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    background-color:  #fdf6f0;
+    transform: translateY(-50%);
+    font-size: 15px;
+    padding: 0 9px;
+    pointer-events: none;
+    z-index: 500;
+ 
 }
-
-.social ul{
-	padding: 0;
-	margin: 0;
-	left: -1000px;
+/****** Social media side********/
+ .contact-info{
+    background-color: #fdfbf8;
+    position: relative;
+    padding: 5px;
+ }
+.icon{
+    width:35px;
+    height: 35px;  
+    margin-right: 10px;
+} 
+.information{
+    display: flex;
+    margin: 4px;
+    align-items: center;
 }
-
-.social ul li {
-	list-style: none;
+.para2{
+    font-size: 20px;
+    
+}
+.para3{
+ font-size: 30px;
+ margin: 40px 20px 0 20px;
+}
+.social-icons {
+	margin-top: 45px;
+    display: flex;
+}
+.social-icons a{
 	margin: 0 15px;
+    width: 45px;
+    line-height: 45px;
+    font-size: 30px;
+    border-radius: 50%;
+    background: linear-gradient(45deg,#ffe4e1,#e5ccc9);
+    text-align: center;
+    color: #7f2549;
 
 }
-.social ul li .fa {
-	font-size: 30px;
-	line-height: 60px;
-	transform: .6s;
-	color: #000;
+.social-icons a:hover{
+    transform: translate(-7px, 0)
 }
 
-.social ul li a {
-	position: absolute;
-	display: block;
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background-color: whitesmoke;
-	text-align:center;
-	transition: .6s;
-	box-shadow: 0 5px 4px rgba(0,0,0,.5)
+.circle-three{
+     position:absolute;
+     width: 118px;
+     height: 100px;
+     border: 22px solid #7f2549;
+     border-radius: 50%;
+     bottom: -50px;
+     right: 200px;
+     opacity: 0.4;
 }
-/* makes icon hover  up and down*/
-.social ul li a:hover {
-	transform: translate(0, -10px);
+ .big-circle{
+     position: absolute;
+     width: 500px;
+     height: 500px;
+     border-radius: 50%;
+     background: linear-gradient(to bottom,#fdf6f0, #7f2549 );
+     bottom: 50%;
+     right: 50%;
+     transform: translate(-40%,38%);
+ }
+ .big-circle:after{
+     content:"";
+     position: absolute;
+     width: 360px;
+     height: 360px;
+     background-color: whitesmoke;
+     border-radius: 50%;
+     top: calc(50% - 180px);
+     left: calc(50% - 180px);
+ }
+ .circle{
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%,#d09d85);
+    position: absolute;
 }
-/* select every li child and Specify a background color for every a*/
-.social ul li:nth-child(1) a:hover {
-	background-color: #1877F2;
+.circle.one{
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    right: -40px;
 }
-.social ul li:nth-child(2) a:hover {
-	background-color: #E4405F;
+.circle.two{
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    right: 30px;
 }
-.social ul li:nth-child(3) a:hover {
-	background-color: #1DA1F2;
-}
-.social ul li:nth-child(4) a:hover {
-	background-color: #BD081C;
-}
-
-
-
