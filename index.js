@@ -1,7 +1,9 @@
-var modal = document.getElementById('login');
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var btn = document.getElementById('btn');
+var span= document.getElementById('span');
+
+let  count = 0;
+function bag () {
+    count += 1;
+    document.getElementById('span').innerHTML = count;
+    console.log(count);
 }

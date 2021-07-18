@@ -63,6 +63,7 @@ ol li a{
 ol li a:hover{
 	background: #fdfbf8;
 }
+
 .fa-search{
 	position:absolute;
 	left: 90%;
@@ -77,6 +78,13 @@ ol li a:hover{
 	margin-top: 5px;
     cursor: pointer;
 	
+}
+.num{
+    position:absolute;
+	left: 93%;
+	top: 9%;
+	margin-top: 5px;
+    font-size: 15px; 
 }
 .logo{
 	position: relative;
