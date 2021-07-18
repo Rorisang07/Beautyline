@@ -198,9 +198,9 @@ color: #704241;
 .Container{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     padding: 32px;
-    background-color: white;
+   background-color: white;
     overflow: hidden;
    display: flex;
    align-items: center;
@@ -213,7 +213,7 @@ color: #704241;
      width: 100%;
      max-width: 820px;
      border-radius: 5px;
-     background-color: #fdfbf8;
+     /*background-color: #fdfbf8;*/
      box-shadow: 0 0 20px whitesmoke;
      
      z-index: 1000;
@@ -222,7 +222,7 @@ color: #704241;
  }
  /********contact form*****/
  .contact-form{
-     background-color: #fdf6f0;
+    background-color: #fdf6f0;
      position: relative;
  }
 
@@ -304,7 +304,7 @@ label{
  
 }
 /****** Social media side********/
- .contact-info{
+.contact-info{
     background-color: #fdfbf8;
     position: relative;
     padding: 5px;
@@ -356,7 +356,7 @@ label{
      right: 200px;
      opacity: 0.4;
 }
- .big-circle{
+.big-circle{
      position: absolute;
      width: 500px;
      height: 500px;
