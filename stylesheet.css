@@ -63,6 +63,14 @@ ol li a{
 ol li a:hover{
 	background: #fdfbf8;
 }
+form .search1{
+    position:absolute;
+	left: 90%;
+	top: 11%;
+	margin-top: 5px;
+    cursor: pointer;
+    width: 0;
+}
 
 .fa-search{
 	position:absolute;
@@ -95,9 +103,9 @@ ol li a:hover{
 font{
 	color: black;
 }
-/*home page*/
+/******home page*********/
 .cover1{
-background-size: cover;
+/*background-size: cover;*/
 position: relative;
 height: 530px;
 width: 100%;
@@ -105,7 +113,7 @@ bottom: 0;
 }
 .heading{
 position: relative;
-font-size: 28px;
+font-size: 25px;
 text-transform: capitalize;
 top: -350px;
 color: #704241;
@@ -392,4 +400,38 @@ label{
     height: 80px;
     top: 10px;
     right: 30px;
+}
+
+/*******Footer Section*******/
+.footer-container{
+    margin-top: 0%;
+    
+}
+.footer-container1{
+background-color: black;
+color: white;
+margin-top: 0;
+display: grid;
+grid-template-columns: auto auto auto ;
+grid-gap: 100px;
+width: 100%;
+text-align: justify;
+}
+.mini-footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+.sus{
+    width: 40%;
+    margin-top: 12px;
+    background-color: #ffe4e1;
+    height:36px;
+}
+.email{
+    width: 38%;
+    height:29px;
 }
