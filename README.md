@@ -7,6 +7,7 @@ RK Cosmetics is a small cosmetics brand build by a fellow Girlcode Student.
 ## Built With
  * Html
  * Css
+ * Javascript
 ## Contributing
 Pull requests are always welcome.Please open an issue first to discuss what you want to alter if you want to make big changes.
 
