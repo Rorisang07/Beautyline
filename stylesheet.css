@@ -105,7 +105,6 @@ font{
 }
 /******home page*********/
 .cover1{
-/*background-size: cover;*/
 position: relative;
 height: 530px;
 width: 100%;
@@ -125,7 +124,6 @@ color: #704241;
     font-size: 39px;
     text-align: center;
     padding-top: 70px;
-    /*padding-block-end: 50px;*/
 }
 .grid-box{
     display: grid;
@@ -174,7 +172,6 @@ color: #704241;
 }
 .container1{
 	width:650px;
-	/* it sets auto magin on all sides, set it the same*/
 	margin:auto;
 	position: absolute;
 	left: 45%;
@@ -192,7 +189,6 @@ color: #704241;
 } 
 .container2{
 	width:650px;
-	/* it sets auto magin on all sides, set it the same*/
 	margin:auto;
 	position: absolute;
 	left: 45%;
@@ -206,7 +202,6 @@ color: #704241;
 .Container{
     position: relative;
     width: 100%;
-    /*min-height: 100vh;*/
     padding: 32px;
    background-color: white;
     overflow: hidden;
@@ -221,7 +216,6 @@ color: #704241;
      width: 100%;
      max-width: 820px;
      border-radius: 5px;
-     /*background-color: #fdfbf8;*/
      box-shadow: 0 0 20px whitesmoke;
      
      z-index: 1000;
@@ -271,7 +265,7 @@ textarea.input{
     min-height: 100px;
     border-radius: 22px;
     resize: none;
-    /*overflow-y: auto;*/
+    
 }
 .input-container label{
     position: absolute;
@@ -287,7 +281,6 @@ textarea.input{
 }
 .input-container.textarea label{
     top: 15px;
-    /*transform: translateY(0);*/
 }
 .btn{
     padding: 7px 9px;
