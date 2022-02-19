@@ -5,7 +5,7 @@ RK Cosmetics is a small cosmetics brand build by a fellow Girlcode Student.
 * Makes you feel comfortable in your own skin❤
 * ## Project Preview
 
-![Project Screenshot](images/screenshot.png)
+![Project Screenshot](images/screenshot.PNG)
 
 [Live Demo](https://rorisang07.github.io/Beautyline/)
 
